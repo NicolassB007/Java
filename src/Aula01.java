@@ -1,16 +1,25 @@
-import java.util.Scanner;
+import java.util.Scanner; // Import a lib
+/*
+* Lib - Place where have many tools for use, many commands
+* */
 
 public class Aula01 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner lerDados = new Scanner(System.in);
+        System.out.print("Olá, informe o seu nome: ");
+        String name = lerDados.next();
 
-        // Meu comentário
+        System.out.print("Informe sua idade: ");
+        int age = lerDados.nextInt();
+
+        // System.out.print("Olá " + name + " sua idade é " + age);
+        System.out.printf("Ola %s sua idade é %d anos \n", name, age);
+
+        // My commentary
         /*
-        * Meu comentário
-        * de
-        * várias linhas
+        * My first commentary
+        * of
+        * multiples lines
         * */
-
-        Scanner lerDados;
     }
 }
