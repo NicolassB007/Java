@@ -1,3 +1,4 @@
+package Java_Fundamentos;
 // Primitive Types
 public class Aula02 {
     public static void main(String[] args) {

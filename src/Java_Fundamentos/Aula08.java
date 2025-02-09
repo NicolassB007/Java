@@ -1,3 +1,4 @@
+package Java_Fundamentos;
 import java.util.Scanner;
 
 public class Aula08 {

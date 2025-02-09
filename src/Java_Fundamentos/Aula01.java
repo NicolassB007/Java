@@ -1,3 +1,4 @@
+package Java_Fundamentos;
 import java.util.Scanner; // Import a lib
 /*
 * Lib - Place where have many tools for use, many commands
